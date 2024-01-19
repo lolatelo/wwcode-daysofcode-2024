@@ -16,3 +16,16 @@ def sum_elems(lst):
         i += 1
    
     return sums
+
+
+# alternative with for loop
+def sum_list(lstValues):
+    """
+    >>> sum_list([1, 2, 3, 4, 5])
+    15
+    """
+    summ = 0
+    for val in lstValues:
+        summ += val
+    
+    return summ
