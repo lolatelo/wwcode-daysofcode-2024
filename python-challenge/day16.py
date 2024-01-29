@@ -3,8 +3,6 @@ Day 16: Write a function that counts the frequency of each word in a sentence.
 
 '''
 
-from datetime import datetime
-
 def count_freq(snt, word):
     '''
     >>> count_freq('I love cats', 'cats')
