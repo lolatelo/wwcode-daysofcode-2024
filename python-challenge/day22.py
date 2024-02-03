@@ -16,8 +16,7 @@ def second_elem(lst):
         return lst[0]
 
     else:
-        first = 0
-        second = 0
+        first, second = float('-inf'), float('-inf')
 
         for elem in lst:
             if elem > first:
