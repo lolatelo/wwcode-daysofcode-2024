@@ -19,11 +19,6 @@ def prime(num):
 
     for i in mults:
         if num % i == 0 and num != i:
-            divisors.append(False)
-        else:
-            divisors.append(True)
-    
-    if False in divisors:
-        return False
-    else:
-        return True
+            return False
+        
+    return True
